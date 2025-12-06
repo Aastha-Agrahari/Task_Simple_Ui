@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
             const Text(
               "You are Logged In 🎉",
               style: TextStyle(
-                  fontSize: 28, fontWeight: FontWeight.bold, color: Colors.white),
+                  fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white),
             ),
 
             const SizedBox(height: 30),
