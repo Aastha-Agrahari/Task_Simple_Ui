@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Welcome ✨", style: TextStyle(color: Colors.white)),
+        title: const Text("Welcome ✨", style: TextStyle(color: Colors.white,  fontSize: 24,)),
         centerTitle: true,
         elevation: 0,
         flexibleSpace: Container(
@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
             const Text(
               "You are Logged In 🎉",
               style: TextStyle(
-                  fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white),
+                  fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
             ),
 
             const SizedBox(height: 30),
